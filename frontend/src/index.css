@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #0077B5;
+  --color-brand-blue-dark: #005a8c;
+  --color-brand-blue-light: #e6f2f9;
+  --color-brand-green: #1DBF73;
+  --color-brand-green-dark: #17a362;
+  --color-brand-green-light: #e8f8f0;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Utility for smooth transitions */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
